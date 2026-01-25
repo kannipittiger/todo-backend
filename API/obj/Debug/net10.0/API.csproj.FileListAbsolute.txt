@@ -443,3 +443,4 @@ d:\Github\index-porject\todo-list\backend\API\obj\Debug\net10.0\refint\API.dll
 d:\Github\index-porject\todo-list\backend\API\obj\Debug\net10.0\API.pdb
 d:\Github\index-porject\todo-list\backend\API\obj\Debug\net10.0\API.genruntimeconfig.cache
 d:\Github\index-porject\todo-list\backend\API\obj\Debug\net10.0\ref\API.dll
+d:\Github\index-porject\todo-list\backend\API\obj\Debug\net10.0\API.sourcelink.json

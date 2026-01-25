@@ -125,3 +125,4 @@ d:\Github\index-porject\todo-list\backend\Services\obj\Debug\net10.0\Services.dl
 d:\Github\index-porject\todo-list\backend\Services\obj\Debug\net10.0\refint\Services.dll
 d:\Github\index-porject\todo-list\backend\Services\obj\Debug\net10.0\Services.pdb
 d:\Github\index-porject\todo-list\backend\Services\obj\Debug\net10.0\ref\Services.dll
+d:\Github\index-porject\todo-list\backend\Services\obj\Debug\net10.0\Services.sourcelink.json

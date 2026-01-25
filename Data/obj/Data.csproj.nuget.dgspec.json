@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj": {}
+    "d:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj": {}
   },
   "projects": {
-    "D:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj": {
+    "d:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj",
+        "projectUniqueName": "d:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj",
+        "projectPath": "d:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\kanni\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\index-porject\\todo-list\\backend\\Data\\obj\\",
+        "outputPath": "d:\\Github\\index-porject\\todo-list\\backend\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kanni\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -119,3 +119,4 @@ d:\Github\index-porject\todo-list\backend\Data\obj\Debug\net10.0\refint\Data.dll
 d:\Github\index-porject\todo-list\backend\Data\obj\Debug\net10.0\Data.pdb
 d:\Github\index-porject\todo-list\backend\Data\obj\Debug\net10.0\Data.genruntimeconfig.cache
 d:\Github\index-porject\todo-list\backend\Data\obj\Debug\net10.0\ref\Data.dll
+d:\Github\index-porject\todo-list\backend\Data\obj\Debug\net10.0\Data.sourcelink.json
