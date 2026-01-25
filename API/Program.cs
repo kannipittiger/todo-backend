@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Data.DataContext;
-using Services.ProductInterface;
-using Services.Product;
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
 using Services.TodoList;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +20,19 @@ builder.Services.AddControllers();
 // 4️⃣ Add Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddSlidingWindowLimiter("sliding", opt =>
+{
+    opt.PermitLimit = 10;
+    opt.Window = TimeSpan.FromMinutes(1); 
+    opt.SegmentsPerWindow = 6;
+    opt.QueueLimit = 0;
+});
+
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+});
 
 builder.Services.AddCors(options =>
 {
@@ -43,6 +56,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseRateLimiter();
 app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");
 

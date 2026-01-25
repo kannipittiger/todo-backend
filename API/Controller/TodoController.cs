@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Data.DataContext;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using Models.Request;
 using Services.TodoList;
 
@@ -11,6 +12,7 @@ namespace API.Controller
 {
     [ApiController]
     [Route("api/[controller]")]
+    [EnableRateLimiting("sliding")]
     public class TodoController : ControllerBase
     {
         private readonly ITodo _itodo;
