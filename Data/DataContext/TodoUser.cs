@@ -5,7 +5,7 @@ namespace Data.DataContext;
 
 public partial class TodoUser
 {
-    public string UserId { get; set; } = null!;
+    public int UserId { get; set; }
 
     public string? UserName { get; set; }
 

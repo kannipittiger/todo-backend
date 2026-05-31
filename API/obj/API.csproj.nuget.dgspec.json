@@ -29,8 +29,8 @@
               "c:\\Github\\todo-backend\\Data\\Data.csproj": {
                 "projectPath": "c:\\Github\\todo-backend\\Data\\Data.csproj"
               },
-              "C:\\Github\\todo-backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Github\\todo-backend\\Models\\Models.csproj"
+              "c:\\Github\\todo-backend\\Models\\Models.csproj": {
+                "projectPath": "c:\\Github\\todo-backend\\Models\\Models.csproj"
               },
               "C:\\Github\\todo-backend\\Services\\Services.csproj": {
                 "projectPath": "C:\\Github\\todo-backend\\Services\\Services.csproj"
@@ -855,14 +855,14 @@
         }
       }
     },
-    "C:\\Github\\todo-backend\\Models\\Models.csproj": {
+    "c:\\Github\\todo-backend\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\todo-backend\\Models\\Models.csproj",
+        "projectUniqueName": "c:\\Github\\todo-backend\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Github\\todo-backend\\Models\\Models.csproj",
+        "projectPath": "c:\\Github\\todo-backend\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\kanni\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\todo-backend\\Models\\obj\\",
+        "outputPath": "c:\\Github\\todo-backend\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kanni\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1213,8 +1213,8 @@
               "c:\\Github\\todo-backend\\Data\\Data.csproj": {
                 "projectPath": "c:\\Github\\todo-backend\\Data\\Data.csproj"
               },
-              "C:\\Github\\todo-backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Github\\todo-backend\\Models\\Models.csproj"
+              "c:\\Github\\todo-backend\\Models\\Models.csproj": {
+                "projectPath": "c:\\Github\\todo-backend\\Models\\Models.csproj"
               }
             }
           }

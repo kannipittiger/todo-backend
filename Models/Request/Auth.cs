@@ -7,6 +7,7 @@ namespace Models.Request
 {
     public class Auth
     {
-        
+        public String? User { get; set; }
+        public String? Password { get; set; }
     }
 }

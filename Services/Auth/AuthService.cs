@@ -17,9 +17,28 @@ namespace Services.Product
             _data = data;
         }
 
-        public Response login ()
+        public Response Login(Auth auth)
         {
-            return null;
+            var user = _data.TodoUsers
+                .FirstOrDefault(x =>
+                    x.UserName == auth.User &&
+                    x.Password == auth.Password);
+
+            if (user == null)
+            {
+                return new Response
+                {
+                    Code = 400,
+                    Message = "Username or Password is not valid."
+                };
+            }
+
+            return new Response
+            {
+                Code = 200,
+                IsSuccess = true,
+                Message = "Login Success",
+            };
         }
     }
 }

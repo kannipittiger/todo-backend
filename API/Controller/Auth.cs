@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Services.ProductInterface;
+using Models.Request;
 
 namespace API.Controller
 {
@@ -13,21 +15,26 @@ namespace API.Controller
     public class Auth : ControllerBase
     {
         private readonly ILogger<Auth> _logger;
+        private readonly IAuth _iauth;
 
-        public Auth(ILogger<Auth> logger , String iauth)
+        public Auth(ILogger<Auth> logger , IAuth iauth)
         {
             _logger = logger;
+            _iauth = iauth;
         }
 
-        // public IActionResult Index()
-        // {
-        //     return View();
-        // }
-
-        // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        // public IActionResult Error()
-        // {
-        //     return View("Error!");
-        // }
+        [HttpPost("login")]
+        public IActionResult GetTodoList ([FromBody] Models.Request.Auth auth)
+        {
+            try
+            {
+                var res = _iauth.Login(auth);
+                return Ok(res);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

@@ -12,5 +12,6 @@ namespace Services.ProductInterface
     {
         // ProductRes SaveProduct(ProductReq req);
         // List<ProductManagement> GetProduct(string req);
+        Response Login(Auth auth);
     }
 }

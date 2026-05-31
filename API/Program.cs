@@ -3,6 +3,8 @@ using Data.DataContext;
 using Microsoft.AspNetCore.RateLimiting;
 using System.Threading.RateLimiting;
 using Services.TodoList;
+using Services.Product;
+using Services.ProductInterface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 // 2️⃣ AddScoped service
 // builder.Services.AddScoped<IProduct,ProductService>();
+builder.Services.AddScoped<IAuth,AuthService>();
 builder.Services.AddScoped<ITodo,TodoService>();
 
 // 3️⃣ Add Controllers

@@ -107,7 +107,7 @@ namespace Services.TodoList
                 {
                     Code = 200,
                     Message = "Save Successfully",
-                    Result = true
+                    IsSuccess = true
                 };
             }
             catch (Exception ex)
@@ -118,7 +118,7 @@ namespace Services.TodoList
                 {
                     Code = 500,
                     Message = $"Failed! {ex.Message}",
-                    Result = false
+                    IsSuccess = false
                 };
             }
         }
@@ -143,7 +143,7 @@ namespace Services.TodoList
                 {
                     Code = 200,
                     Message = "Delete Successfully",
-                    Result = true
+                    IsSuccess = true
                 };
             }
             catch (Exception ex)
@@ -154,7 +154,7 @@ namespace Services.TodoList
                 {
                     Code = 500,
                     Message = $"Failed! {ex.Message}",
-                    Result = false
+                    IsSuccess = false
                 };
             }
         }

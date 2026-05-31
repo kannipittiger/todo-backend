@@ -57,18 +57,16 @@ public partial class DataContext : DbContext
 
         modelBuilder.Entity<TodoUser>(entity =>
         {
-            entity.HasKey(e => e.UserId);
+            entity.HasKey(e => e.UserId).HasName("PK__TODO_USE__B9BE370F8F828F68");
 
             entity.ToTable("TODO_USER");
 
-            entity.Property(e => e.UserId)
-                .HasMaxLength(5)
-                .HasColumnName("user_id");
+            entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.Password)
-                .HasMaxLength(200)
+                .HasMaxLength(255)
                 .HasColumnName("password");
             entity.Property(e => e.UserName)
-                .HasMaxLength(100)
+                .HasMaxLength(255)
                 .HasColumnName("user_name");
         });
 
