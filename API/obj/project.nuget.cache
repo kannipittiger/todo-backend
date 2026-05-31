@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X9PAnWBafL8=",
+  "dgSpecHash": "LpDFO4Uqgjc=",
   "success": true,
-  "projectFilePath": "d:\\Github\\index-porject\\todo-list\\backend\\API\\API.csproj",
+  "projectFilePath": "c:\\Github\\todo-backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanni\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\kanni\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

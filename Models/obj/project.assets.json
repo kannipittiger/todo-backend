@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\index-porject\\todo-list\\backend\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Github\\todo-backend\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Github\\index-porject\\todo-list\\backend\\Models\\Models.csproj",
+      "projectPath": "C:\\Github\\todo-backend\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\kanni\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\index-porject\\todo-list\\backend\\Models\\obj\\",
+      "outputPath": "C:\\Github\\todo-backend\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kanni\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

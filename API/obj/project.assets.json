@@ -4257,11 +4257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Github\\index-porject\\todo-list\\backend\\API\\API.csproj",
+      "projectUniqueName": "c:\\Github\\todo-backend\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\Github\\index-porject\\todo-list\\backend\\API\\API.csproj",
+      "projectPath": "c:\\Github\\todo-backend\\API\\API.csproj",
       "packagesPath": "C:\\Users\\kanni\\.nuget\\packages\\",
-      "outputPath": "d:\\Github\\index-porject\\todo-list\\backend\\API\\obj\\",
+      "outputPath": "c:\\Github\\todo-backend\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kanni\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4276,14 +4276,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "d:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj": {
-              "projectPath": "d:\\Github\\index-porject\\todo-list\\backend\\Data\\Data.csproj"
+            "c:\\Github\\todo-backend\\Data\\Data.csproj": {
+              "projectPath": "c:\\Github\\todo-backend\\Data\\Data.csproj"
             },
-            "d:\\Github\\index-porject\\todo-list\\backend\\Models\\Models.csproj": {
-              "projectPath": "d:\\Github\\index-porject\\todo-list\\backend\\Models\\Models.csproj"
+            "C:\\Github\\todo-backend\\Models\\Models.csproj": {
+              "projectPath": "C:\\Github\\todo-backend\\Models\\Models.csproj"
             },
-            "d:\\Github\\index-porject\\todo-list\\backend\\Services\\Services.csproj": {
-              "projectPath": "d:\\Github\\index-porject\\todo-list\\backend\\Services\\Services.csproj"
+            "C:\\Github\\todo-backend\\Services\\Services.csproj": {
+              "projectPath": "C:\\Github\\todo-backend\\Services\\Services.csproj"
             }
           }
         }
@@ -4342,7 +4342,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
